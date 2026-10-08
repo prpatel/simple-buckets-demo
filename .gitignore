@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data stays out of git: NYC taxi data from Kaggle, and files derived from it
+*.csv
+*.parquet
+
+# macOS
+.DS_Store
